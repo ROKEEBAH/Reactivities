@@ -33,12 +33,7 @@ const handleCancelSelectActivity = () => {
     }
     
      
-      const handleDelete = (id: string) => {
-       console.log(id);
-      }
-      console.log("App activities:", activities);
-console.log("SelectedActivityId:", selectedActivity);
-// console.log("SelectedActivity (derived):", activities?.find(a => a.id === selectedActivity));
+    
   
   return (
       <Box sx={{bgcolor: '#eeeeee', minHeight: '100vh'}}>
@@ -56,8 +51,6 @@ console.log("SelectedActivityId:", selectedActivity);
         editMode={editMode}
         openForm={handleOpenForm} 
         closeForm={handleFormClose}
-    
-        deleteActivity={handleDelete}
         />
         )}
         
