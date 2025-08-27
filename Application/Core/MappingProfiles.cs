@@ -1,5 +1,6 @@
 using Domain;
 using AutoMapper;
+using Application.Activities.DTOs;
 
 namespace Application.Core
 {
@@ -9,6 +10,8 @@ namespace Application.Core
         public MappingProfiles()
         {
             CreateMap<Activity, Activity>();
+            CreateMap<CreateActivityDto, Activity>();
+            CreateMap<EditActivityDto, Activity>();
         }
     }
 }
