@@ -10,6 +10,7 @@ type Activity = {
   latitude: number
   longitude: number
 }
+
 export type LocationIQSuggestion =  {
   place_id: string
   osm_id: string
