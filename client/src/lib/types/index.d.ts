@@ -9,8 +9,19 @@ type Activity = {
   venue: string
   latitude: number
   longitude: number
+  attendees: Profile[]
+  isGoing: boolean
+  isHost: boolean
+  hostId: string
+  hostDisplayName: string
 }
 
+type Profile = {
+  id : string
+  displayName: string
+  bio?: string
+  imageUrl?: string
+}
 
 type User= {
   id: string
