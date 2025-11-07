@@ -11,6 +11,10 @@
   <ProjectReference Include="..\Persistence\Persistence.csproj" />
 </ItemGroup>
 
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+  
  <ItemGroup>
    <PackageReference Include="AutoMapper" Version="13.0.1" />
    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="12.0.0" />
