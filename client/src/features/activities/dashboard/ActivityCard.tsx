@@ -16,7 +16,10 @@ const label = activity.isHost ? 'You are hosting' : 'You are going';
     <Card elevation={3} sx={{borderRadius: 3}}>
     <Box display='flex' alignItems='center' justifyContent='space-between'>
       <CardHeader
-      avatar={<Avatar sx={{height: 80, width:80}} />}
+      avatar={<Avatar src={activity.hostImageUrl} 
+      sx={{height: 80, width:80}} 
+      alt="image of host"
+      />}
       title={activity.title}
       titleTypographyProps={{
         fontWeight: 'bold',
