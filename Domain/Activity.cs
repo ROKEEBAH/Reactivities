@@ -19,5 +19,6 @@ public class Activity
 
     // nav properties
     public ICollection<ActivityAttendee> Attendees { get; set; } = [];
+    public ICollection<Comment> Comments { get; set; } = [];
     
 }
